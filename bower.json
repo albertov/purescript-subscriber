@@ -8,32 +8,29 @@
     "output"
   ],
   "dependencies": {
-    "purescript-console": "^1.0.0",
-    "purescript-dom": "1.1.0 - 3.0.0",
-    "purescript-maybe": "^1.0.0",
-    "purescript-tuples": "^1.0.0",
-    "purescript-generics": "^1.0.0",
-    "purescript-signal": "^6.0",
-    "purescript-maps": "^1.0.0",
-    "purescript-websocket-simple": "^0.4.0",
-    "purescript-var": "^0.2.0",
-    "purescript-refs": "^1.0.0",
-    "purescript-argonaut-generic-codecs": "^3.0.0",
-    "purescript-profunctor-lenses": "^1.0.0",
-    "purescript-prelude": "^1.0.0",
-    "purescript-bifunctors": "^1.0.0",
-    "purescript-partial": "^1.1.2",
-    "purescript-servant-support": "1.0.3 - 5.0.0",
-    "purescript-eff-functions": "^1.0.0"
+    "purescript-console": "*",
+    "purescript-dom": "*",
+    "purescript-maybe": "*",
+    "purescript-tuples": "*",
+    "purescript-generics": "*",
+    "purescript-signal": "*",
+    "purescript-maps": "*",
+    "purescript-websocket-simple": "*",
+    "purescript-var": "*",
+    "purescript-refs": "*",
+    "purescript-argonaut-generic-codecs": "*",
+    "purescript-profunctor-lenses": "*",
+    "purescript-prelude": "*",
+    "purescript-bifunctors": "*",
+    "purescript-partial": "*",
+    "purescript-servant-support": "https://github.com/albertov/purescript-servant-support.git#916bb13a0688fecfc38e5c16b25fa5ffe5976bb7",
+    "purescript-eff-functions": "*"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/eskimor/purescript-subscriber.git"
   },
-  "resolutions": {
-    "purescript-dom": "^1.1.0"
-  },
   "devDependencies": {
-    "purescript-psci-support": "^1.0.0"
+    "purescript-psci-support": "*"
   }
 }
